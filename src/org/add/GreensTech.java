@@ -19,10 +19,16 @@ public class GreensTech {
 	}
        private void greensAnnaNagar() {
 		// TODO Auto-generated method stub
-        System.out.println("Anna nagar"); 
+        System.out.println("Anna nagar");
+     
 			}
+       private void greensVadapalani() {
+		System.out.println("vadapalani");// TODO Auto-generated method stub
+
+	}
        public static void main(String[] args) {
     	   GreensTech gt=new GreensTech();
+    	   gt.greensVadapalani();
     	   gt.greensOmr();
     	   gt.greensAdayar();
     	   gt.greensAnnaNagar();
